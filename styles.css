@@ -1,0 +1,124 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Itim", cursive;
+}
+
+body {
+  background-color: #cdb4db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#tour-section {
+  background-color: #ffc8dd;
+  width: 888px;
+  height: 1087px;
+  border-radius: 18px;
+  box-shadow: 0 0 2px black;
+  padding: 19px 17px;
+}
+
+#hero {
+  background-image: url(images/hongkong.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 332px;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 0 180px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 24px;
+  background-color: #a2d2ff;
+  padding: 11px 25px;
+  display: inline-block;
+  margin: 46px auto 19px;
+  border-radius: 8px;
+}
+
+h3 {
+  font-size: 24px;
+  background-color: #a2d2ff;
+  padding: 11px 25px;
+  display: inline-block;
+  margin: 0;
+  border-radius: 8px;
+}
+
+#three-activities-section {
+  margin-top: 0;
+  background-color: #ffafcc;
+  padding: 19px 20px;
+  color: #03045e;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+#three-activities {
+  display: flex;
+  justify-content: space-between;
+}
+
+.each-activity {
+  width: 246px;
+}
+
+.titles {
+  font-size: 16px;
+}
+
+.descriptions {
+  font-size: 13px;
+}
+
+#card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  color: #03045e;
+}
+
+#card {
+  width: 360px;
+  height: 162px;
+  padding: 25px;
+  background-color: #bde0fe;
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+
+#me {
+  background-image: url(images/me.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 156px;
+  border-radius: 8px;
+}
+
+#introduction {
+  width: 195px;
+}
+
+h5 {
+  font-size: 24px;
+  margin: 0;
+}
+
+#introduction-paragraph {
+  font-size: 16px;
+}
